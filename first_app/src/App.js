@@ -11,6 +11,7 @@ function Welcome () {
         <li>Make money through coding</li>
         <li>Be a good instructor</li>
       </ul>
+      
     </div>
   );
 }
