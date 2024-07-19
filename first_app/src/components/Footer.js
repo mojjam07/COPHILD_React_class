@@ -1,8 +1,9 @@
 import React  from "react";
+import './myStyles.css'
 
 function Footer () {
     return (
-        <div>
+        <div className="footer">
             <h3>Since @ 2024</h3> 
         </div>
     )

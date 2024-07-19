@@ -1,13 +1,16 @@
 import React  from "react";
+import './myStyles.css'
 
 function Header () {
     return (
-        <div>
-            <img src="https://shorturl.at/bZOlL" alt="" />
-            <h2>Home</h2>
-            <h2>Services</h2>
-            <h2>Contact</h2>
-            <h2>Profile</h2> 
+        <div className="header">
+            <img className='logo-img' src="https://shorturl.at/bZOlL" alt="" />
+            <ul className="list">
+                <li className="list-item"><a href="#">Home</a></li>
+                <li className="list-item"><a href="#">Services</a></li>
+                <li className="list-item"><a href="#">Contact</a></li>
+                <li className="list-item"><a href="#">Profile</a></li>
+            </ul> 
         </div>
     )
 }
