@@ -10,7 +10,7 @@ function UseStateHook() {
     // function decrement (){
     //   setValue(value - 1)
     // }
-    increment = () => setValue(value + 1) 
+    //increment = () => setValue(value + 1) 
 
   return (
     <div>
