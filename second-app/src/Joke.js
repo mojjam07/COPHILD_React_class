@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-function Joke() {
+function Joke(props) {
   return (
-    <div>Joke</div>
+    <div>
+        <h1 style={{color:'purple', backgroundColor: 'yellow'}}>question: {props.question}</h1>
+        <h3 style={{color:'pink', backgroundColor: 'green'}}>Answer: {props.punchline}</h3>
+    </div>
   )
 }
 
-export default Joke
+export default Joke;
