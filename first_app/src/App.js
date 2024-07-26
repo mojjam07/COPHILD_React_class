@@ -1,17 +1,31 @@
 import React from 'react';
 import './App.css';
+import Props from './Props'
+import ParentChild from './ParentChild';
+import Destructuring from './Destructuring';
+import ClickHandler from './ClickHandler';
+import ChildParent from './ChildParent';
+import ConditionalRendering from './ConditionalRendering';
+import ListRendering from './ListRendering';
 
 function Welcome () {
+
+  const greetParent = () => {
+    alert('Hello Parent')
+  }
+
   return (
     <div>
-      <h1>Hello React</h1>
-      <h2>Welcome to COPHILD REACT CLASS by Mr. Muhyideen</h2>
-      <ul>
-        <li>Great Developer</li>
-        <li>Make money through coding</li>
-        <li>Be a good instructor</li>
-      </ul>
-      
+      <ParentChild />
+      <Props name='Mojjam'/>
+      <Props name='Jenifer'>
+        <p>I have 3 children</p>
+      </Props>
+      <Destructuring name='Edwin' hobby='Music' />
+      <ClickHandler />
+      <ChildParent onClick={greetParent}/>
+      <ConditionalRendering />
+      <ListRendering />
     </div>
   );
 }
