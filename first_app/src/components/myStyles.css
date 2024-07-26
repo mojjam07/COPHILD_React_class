@@ -52,3 +52,16 @@
 .footer h3 {
     text-align: center;
 }
+
+ /* for StylingCSS.js */
+.primary {
+    color: orange;
+}
+
+.font-xl {
+    font-size: 72px;
+}
+
+.error {
+    color: red;
+}

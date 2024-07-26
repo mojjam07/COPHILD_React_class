@@ -7,6 +7,7 @@ import ClickHandler from './ClickHandler';
 import ChildParent from './ChildParent';
 import ConditionalRendering from './ConditionalRendering';
 import ListRendering from './ListRendering';
+import StylingCSS from './StylingCSS';
 
 function Welcome () {
 
@@ -26,6 +27,7 @@ function Welcome () {
       <ChildParent onClick={greetParent}/>
       <ConditionalRendering />
       <ListRendering />
+      <StylingCSS primary={false} />
     </div>
   );
 }
