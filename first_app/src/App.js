@@ -8,6 +8,9 @@ import ChildParent from './ChildParent';
 import ConditionalRendering from './ConditionalRendering';
 import ListRendering from './ListRendering';
 import StylingCSS from './StylingCSS';
+import FormHandling from './FormHandling';
+import FragmentDemo from './FragmentDemo';
+import Table from './Table';
 
 function Welcome () {
 
@@ -28,6 +31,9 @@ function Welcome () {
       <ConditionalRendering />
       <ListRendering />
       <StylingCSS primary={false} />
+      <FormHandling />
+      <FragmentDemo />
+      <Table />
     </div>
   );
 }
