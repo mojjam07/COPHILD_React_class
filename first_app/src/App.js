@@ -11,6 +11,8 @@ import StylingCSS from './StylingCSS';
 import FormHandling from './FormHandling';
 import FragmentDemo from './FragmentDemo';
 import Table from './Table';
+import FetchDataFromAPI from './FetchDataFromAPI';
+import Test from './Test';
 
 function Welcome () {
 
@@ -20,7 +22,7 @@ function Welcome () {
 
   return (
     <div>
-      <ParentChild />
+      {/* <ParentChild />
       <Props name='Mojjam'/>
       <Props name='Jenifer'>
         <p>I have 3 children</p>
@@ -33,7 +35,9 @@ function Welcome () {
       <StylingCSS primary={false} />
       <FormHandling />
       <FragmentDemo />
-      <Table />
+      <Table /> 
+      <FetchDataFromAPI /> */}
+      <Test />
     </div>
   );
 }
