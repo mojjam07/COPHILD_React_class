@@ -22,21 +22,21 @@ function Welcome () {
 
   return (
     <div>
-      {/* <ParentChild />
-      <Props name='Mojjam'/>
-      <Props name='Jenifer'>
+      {/* <ParentChild /> */}
+      {/* <Props name='Mojjam'/> */}
+      {/* <Props name='Jenifer'>
         <p>I have 3 children</p>
-      </Props>
-      <Destructuring name='Edwin' hobby='Music' />
-      <ClickHandler />
-      <ChildParent onClick={greetParent}/>
-      <ConditionalRendering />
-      <ListRendering />
-      <StylingCSS primary={false} />
-      <FormHandling />
-      <FragmentDemo />
-      <Table /> 
-      <FetchDataFromAPI /> */}
+      </Props> */}
+      {/* <Destructuring name='Edwin' hobby='Music' /> */}
+      {/* <ClickHandler /> */}
+      {/* <ChildParent onClick={greetParent}/> */}
+      {/* <ConditionalRendering /> */}
+      {/* <ListRendering /> */}
+      {/* <StylingCSS primary={false} /> */}
+      {/* <FormHandling /> */}
+      {/* <FragmentDemo /> */}
+      {/* <Table />  */}
+      <FetchDataFromAPI />
       <Test />
     </div>
   );
